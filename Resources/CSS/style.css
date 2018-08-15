@@ -1,0 +1,201 @@
+html {
+	font-size: 16px;
+}
+
+.title h1 {
+	text-align: center;
+	font-size: 2rem;
+	padding: 2rem 0 1rem 0;
+}
+
+.thesis.content, .information.container  {
+	display: flex;
+	border: 2px solid green;
+}
+
+.side-container {
+	width: 40%;
+}
+
+.side-content {
+	display: flex;
+	width: 100%;
+	border: 2px solid pink;
+}
+.side-content .image-container {
+	width: 35%;
+	height: auto;
+	border: 1px solid blue;
+}
+
+.side-content .image-container img {
+	width: 100%;
+}
+
+.side-information {
+	width: 65%;
+	height: auto;
+	border: 2px solid red; 
+}
+
+/*Top Section*/
+header {
+	display: flex;
+	align-items: center;
+	height: 4rem;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	background-color: white;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	height: 2rem;
+	padding-left: 1.5rem;
+	font-size: 1.5rem;
+}
+
+header nav {
+	padding-right: 1.5rem;
+}
+
+strong {
+	font-weight: bold;
+}
+
+/*Banner*/
+.banner {
+	position: relative;
+	top: 4.2rem;
+	display: flex;
+	background-color: grey;
+	width: 100%;
+	border: 5px solid blue;
+	margin-bottom: 4.2rem;
+}
+
+.banner .image-container {
+	width: 60%;
+	padding: 2rem 1.5rem;
+	border: 3px solid red;
+}
+
+.banner .image-container img {
+	width: 100%;
+	height: auto;
+}
+
+.banner-content {
+	margin: auto;
+}
+
+.banner-content h1 {
+	font-size: 2.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.banner-content h2{
+	font-size: 1.75rem;	
+}
+
+.banner-content button {
+	text-align: center;
+	padding: 0.5rem 0;
+	margin-top: 2.5rem;
+	width: 100%;
+}
+
+/*Information Section*/
+.information-left {
+	width: 60%;
+	border: 2px solid black;
+}
+ .information-left .image-container {
+	padding: 2rem 1.5rem;
+ }
+.information-left .image-container img {
+	width: 100%;
+}
+
+.information-left .information-content {
+	padding:  0 1.5rem;
+}
+
+.information-content h1 {
+	font-size: 2rem;
+	padding-bottom: 1.5rem;
+}
+
+.information-content .author {
+	font-size: 0.75rem;
+	margin: 2rem 0;
+}
+
+
+
+/*Course Section*/
+.course.container {
+	width: 100%;
+	border: 2px solid green;
+}
+
+.top-row-courses {
+	display: flex;
+	padding: 1rem 3.5rem;
+}
+
+.bottom-row-courses {
+	display: flex;
+	padding: 1rem 3.5rem 2rem 3.5rem;
+}
+
+.box {
+	width: 33.3%;
+	margin: 0 1rem;
+	border: 2px solid red;
+}
+
+.box img {
+	width: 100%;
+}
+
+/*Thesis Section*/
+
+
+.thesis-video {
+	width: 60%;
+	border: 2px solid black;
+}
+
+.thesis-video .video-container {
+	border: 2px solid red;
+	margin: 2rem;
+}
+
+.video-container video {
+	width: 100%;
+	height: auto;
+}
+
+/*footer*/
+footer {
+	display: flex;
+	align-items: center;
+	padding: 1rem 1.5rem;
+	border: 2px solid blue;	
+}
+
+footer span {
+	display: flex;
+	flex-grow: 1;
+}
+footer li {
+	display: inline-block;
+	padding-left: 1.5rem;
+	
+}
+
+
